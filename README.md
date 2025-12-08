@@ -97,7 +97,6 @@ pip install nltk
 pip install faiss-cpu
 pip install langchain-groq
 pip install langchain-core
-pip install getpass
 pip install tqdm
 ```
 

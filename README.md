@@ -27,7 +27,7 @@ Prompt_Optimizer/
 │   ├── dspy_g.ipynb           # Genetic algorithm experiments
 │   ├── rag.ipynb              # RAG development
 │   ├── summarizer.ipynb       # Summarizer development
-│   └── *.png                  # Visualization outputs
+│   └── [visualization PNGs]   # Generated charts and graphs
 ├── Outputs/                    # Generated PDF reports
 │   ├── DSpy_PromptOptimizationTask1_RAG_*.pdf
 │   └── DSpy_PromptOptimizationTask1_Summarizer_*.pdf
@@ -116,10 +116,7 @@ pip install getpass
 git clone https://github.com/kelvinprabhu/Prompt_Optimizer.git
 cd Prompt_Optimizer
 
-# Install all dependencies
-pip install -r requirements.txt  # If requirements.txt is available
-
-# Or install manually
+# Install all required dependencies
 pip install dspy-ai numpy pandas matplotlib seaborn sentence-transformers \
     scikit-learn nltk PyPDF2 faiss-cpu langchain-groq langchain-core tqdm
 ```
